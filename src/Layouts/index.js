@@ -4,7 +4,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import Header from '../Header';
 import Footer from '../Footer';
 import { theme, useStyle } from './styles';
-export default function MaterialLayout(props) {
+export default function Layout(props) {
   const { children } = props;
   const classes = useStyle();
   return (
