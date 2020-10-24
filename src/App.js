@@ -1,12 +1,15 @@
 import React from 'react';
-import Layout from './components/Layouts/';
+import MaterialLayout from './components/Layout/MaterialLayout';
+import CheckoutPage from './components/CheckoutPage';
+
 function App() {
   return (
     <div>
-      <Layout>
-        <h1>Checkout Page right here</h1>
-      </Layout>
+      <MaterialLayout>
+        <CheckoutPage />
+      </MaterialLayout>
     </div>
   );
 }
+
 export default App;
